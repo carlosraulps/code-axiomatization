@@ -1,0 +1,12 @@
+[project]
+name = "code-axiomatization"
+version = "0.1.0"
+description = "An agent skill that takes unstructured mathematical text and synthesizes it into a formal axiomatic LaTeX structure."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.2.0",
+]
+
+[project.scripts]
+code-axiomatization = "mcp_server:mcp.run"
